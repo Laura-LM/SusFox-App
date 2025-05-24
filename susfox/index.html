@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SusFox</title>
+  <link rel="icon" href="./assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <img src="assets/icon.png" alt="icon" width="200" height="100" margin: 0 auto;>
+    <h1 style="text-align: left; color: #ff6600;">Inspect your Red</h1>
+  </div>
+    <p>Click the button below to check for established connections.</p>
+  <!-- <button onclick="fetchConnections()">Check Established Connections</button>
+  <pre id="output">[waiting data]</pre> -->
+  <button id="fetchBtn">Check Established Connections</button>
+  <button id="refreshBtn">Update</button>
+  <pre id="output">[waiting data]</pre>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
