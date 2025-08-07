@@ -12,8 +12,8 @@ SusFox is a desktop application built with Electron that allows you to inspect e
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/susfox.git
-   cd susfox/susfox
+   git clone https://github.com/Laura-LM/SusFox-App.git
+   cd SusFox-App/susfox
    ```
 
 2. Install dependencies:
